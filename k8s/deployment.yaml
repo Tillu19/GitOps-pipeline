@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx
+  name: new-deploy
   labels:
     app: nginx
 spec:
@@ -16,10 +16,9 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.27
+          image: hanvitha/gitops-projects
           ports:
             - containerPort: 80
-
 
 
 
