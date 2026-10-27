@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: hanvitha/gitops-demo:v1
+          image: hanvitha/gitops-projects:v1
           ports:
             - containerPort: 80
